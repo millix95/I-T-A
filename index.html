@@ -1,25 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Introducion to Front-end Development</h1>
-    <p>A front-end developer architects and develops client part of website and aplications using web technologies (languages):</p>
-    <ul>
-        <li style="color:red">HTML</li>
-        <li style="color:green">CSS</li>
-        <li style="color:blue">JavaScript</li>
-        <li style="color:aquamarine">Novi podatak<li>
-        <li style="color:blueviolet">Novi podatak 2<li>
-        <li style="color:chocolate">Novi podatak 3</li>
-        <li style="color:crimson">Novi podatak 4</li>
-    </ul>
-    <h2>END</h2>
-    <h3>end</h3>
-    <script src="./app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tea Station || Home</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+  <!-- navbar -->
+  <!-- header -->
+  <header class="header">
+    <div class="banner">
+      <h2>Preko jedne stotine posebnih</h2>
+      <h1>ukusa <br /> pravljenog čaja </h1>
+      <a href="skills.html" class="btn banner-btn">
+        istraži</a>
+    </div>
+
+  </header>
+  <!-- end of header -->
+  <div class="content-divider"></div>
+  <!-- skill section -->
+  <section class="skills clearfix">
+    <!-- singl skill -->
+    <article class="skill">
+      <span class="skill-icon">
+        <i class="fas fa-mug-hot"></i>
+      </span>
+      <h4 class="skill-title">proizvedeno u Bosni</h4>
+      <p class="skill-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, impedit?</p>
+    </article>
+    <!-- end of singl skill -->
+    <!-- singl skill -->
+    <article class="skill">
+      <span class="skill-icon">
+        <i class="fas fa-glass-cheers"></i>
+      </span>
+      <h4 class="skill-title">relaksacija</h4>
+      <p class="skill-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, impedit?</p>
+    </article>
+    <!-- end of singl skill -->
+    <!-- singl skill -->
+    <article class="skill">
+      <span class="skill-icon">
+        <i class="fas fa-bomb"></i>
+      </span>
+      <h4 class="skill-title">energija</h4>
+      <p class="skill-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, impedit?</p>
+    </article>
+    <!-- end of singl skill -->
+    <!-- singl skill -->
+    <article class="skill">
+      <span class="skill-icon">
+        <i class="fas fa-mortar-pestle"></i>
+      </span>
+      <h4 class="skill-title">porodični recept</h4>
+      <p class="skill-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, impedit?</p>
+    </article>
+    <!-- end of singl skill -->
+    </section>
+  <!-- end of skill section -->
+
+  <!-- abouth -->
+  <section>
+    <div class="section-center clearfix">
+      <!-- abouth img -->
+      <article class="abouth-img">
+        <div class="abouth-picture-container">
+          <img src="./images/about-bcg.jpeg" alt="tea kettle" class="abouth-picture">
+        </div>
+      </article>
+      <!-- abouth info -->
+      <article class="abouth-info">
+        <!-- section title -->
+        <div class="section-title">
+          <h3>u vezi našeg</h3>
+          <h2>Čaj sajt</h2>
+        </div>
+        <!-- end of section title -->
+        <p class="abouth-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis harum sint officiis enim, tempora natus.</p>
+        <p class="abouth-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis harum sint officiis enim, tempora natus.</p>
+        <a href="abouth.html" class="btn">Saznaj više</a>
+      </article>
+    </div>
+  </section>
+  <!-- end of abouth --> 
+  <!-- produkti -->
+  <section class="producti">
+    <div class="section-center clearfix">
+      <!-- product info -->
+      <article class="producti-info">
+        <!-- section title -->
+        <div class="section-title">
+          <h3>Pogledaj naše</h3>
+          <h2>proizvode</h2>
+        <!-- section title -->
+          <p class="product-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est nemo distinctio sunt rerum architecto fuga cum aut, ipsam officiis magnam mollitia deserunt optio ipsa consequatur!</p>
+          <a href="product.html" class="btn">skladište</a>
+      </article>
+      <!-- product inventory -->
+      <article class="product-inventory clearfix">
+        <!-- single product -->
+        <div class="product">
+          <img src="./images/product-1.jpeg" alt="product one" class="product-img">
+          <h4 class="product-title">prvi ukus čaja</h4>
+          <h4 class="product-price">$6.99</h4>
+        </div>
+        <!-- end of single product -->
+        <!-- single product -->
+        <div class="product">
+          <img src="./images/product-2.jpeg" alt="product one" class="product-img">
+          <h4 class="product-title">drugi uku čaja</h4>
+          <h4 class="product-price">$6.99</h4>
+        </div>
+        <!-- end of single product -->
+        <!-- single product -->
+        <div class="product">
+          <img src="./images/product-3.jpeg" alt="product one" class="product-img">
+          <h4 class="product-title">treći uku čaja</h4>
+          <h4 class="product-price">$6.99</h4>
+        </div>
+        <!-- end of single product -->
+      </article>
+    </div>
+  </section>
+  <!-- kraj od produkta -->
+    <script src="app.js"></script>
+  </body>
 </html>
