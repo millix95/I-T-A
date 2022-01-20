@@ -1,6 +1,7 @@
+var a = alert('Dobrodošli u program za računanje!\nPrimer jednog korišćenja programa bi izgledao ovako:\n1. korisnik unosi 3\n2. korisnik unosi +\n3. korisnik unosi 10\nProgram  će da emituje poruku 13')
 var x = prompt('Unesite prvu vrijednost: ');
 var x2 = parseInt(x);
-var z = prompt('Unesite računsku operaciju: +  -  *  / ');
+var z = prompt('Unesite računsku operaciju:\n"+" - sabiranje\n"-" - oduzimanje\n"*" - množenje\n"/" - dijeljenje');
 var y = prompt('Unesite drugu vrijednost: ');
 var y2 = parseInt(y);
 var jedan = ('+');
