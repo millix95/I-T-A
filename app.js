@@ -24,4 +24,7 @@ switch(z) {
         var z2 = x2 / y2;
         alert('Rezultat dijeljenja je: ' + z2.toFixed(2));
         break;
+    default:
+        alert('Unijeli ste pogrešnu računsku operaciju!');
+        break;
 }
