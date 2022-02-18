@@ -1,58 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Advanced CSS - Assignment 1</title>
-    <style>
-        a[href^='https://www.google.com'] {
-            color: green;
-        }
-
-        a[target] {
-            color: red;
-        }
-
-        body>p:hover:last-child {
-            font-style: italic;
-        }
-
-        #second-div>p:nth-child(even) {
-            color: red;
-        }
-
-        #second-div>p:nth-child(odd) {
-            color: blue;
-        }
-
-        #first-div>p::after {
-            content: '– NEW';
-            color: yellow;
-        }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <h1>Main Heading</h1>
-    <p>Paragraph 1</p>
-    <a href="https://www.google.com/">Google</a>
-    <a href="https://www.google.com/doodles">Google Doodles</a>
-    <a href="https://www.link-group.eu/" target="_blank">Goto Link Group</a>
-    <div id="first-div">
-        <h2>Subheading</h2>
-        <p>Paragraph 2</p>
-        <p>Paragraph 3</p>
-        <div id="second-div">
-            <h3>Sub subheading</h3>
-            <p>Paragraph 4</p>
-            <p>Paragraph 5</p>
-            <p>Paragraph 6</p>
-            <p>Paragraph 7</p>
-            <p>Paragraph 8</p>
+    <main>
+    <!-- navigacija -->
+        <div class="navigacija">
+            <div class="podaci">
+                <ul>
+                <li><a href="index.html">Main page</a></li>
+                <li><a class="early" href="early-life-and-education.html">Early life and education</a></li>
+                <li><a href="literary-work.html">Literary work</a></li>
+                <li><a href="pupin-coils.html">Pupin coils</a></li>
+                </ul>
+            </div>
+            <!-- kraj podaci -->
         </div>
-    </div>
-    <p>Paragraph 9</p>
-    <p>Paragraph 10</p>
+        <!-- kraj navigacije -->
+        <!-- ostatak teksta -->
+        <div class="ostatak-teksta">
+            <h1 class="naslov">
+                Mihajlo Idvorski Pupin
+            </h1>
+            <img class="slika" src="./pics/pupin.jpg" alt="Photo of Pupin">
+            <p> 
+                <strong>Mihajlo Idvorski Pupin, Ph.D., LL.D. (Serbian Cyrillic: Михајло Идворски Пупин; 9 October 1858 – 12 March 1935)</strong>, also known as Michael I. Pupin, was a Serbian American physicist and physical chemist.
+            </p>
+            <p>
+                Pupin is best known for his numerous patents, including a means of greatly extending the range of long-distance
+                telephone communication by placing loading coils (of wire) at predetermined intervals along the transmitting wire (known
+                as "pupinization").
+            </p>
+            <p>
+                Pupin was a founding member of National Advisory Committee for Aeronautics (NACA) on March 3, 1915, which later became
+                NASA.
+            </p>
+            <p>
+                In 1914, Pupin formed "Fund Pijade Aleksić-Pupin" within the Serbian Academy of Sciences and Arts[19] to commemorate his
+                mother Olimpijada for all the support she gave him through life. Fund assets were used for helping schools in old Serbia
+                and Macedonia, and scholarships were awarded every year on the Saint Sava day. One street in Ohrid was named after
+                Mihajlo Pupin in 1930 to honour his efforts. He also established a separate "Mihajlo Pupin fund" which he funded from
+                his own property in the Kingdom of Yugoslavia, which he later gave to "Privrednik" for schooling of young people and for
+                prizes in "exceptional achievements in agriculture", as well as for Idvor for giving prizes to pupils and to help the
+                church district.[20]
+                
+                Thanks to Pupin's donations, the library in Idvor got a reading room, schooling of young people for agriculture sciences
+                was founded, as well as the electrification and waterplant in Idvor.[21] Pupin established a foundation in the museum of
+                Natural History and Arts in Belgrade. The funds of the foundation were used to purchase artistic works of Serbian
+                artists for the museum and for the printing of certain publications. Pupin invested a million dollars in the funds of
+                the foundation.[20]
+                
+                In 1909,[citation needed] he established one of the oldest Serbian emigrant organizations in the United States called
+                "Union of Serbs – Sloga." The organization had a mission to gather Serbs in immigration and offer help, as well as
+                keeping ethnic and cultural values. This organization later merged with three other immigrant societies.[22]
+                
+                Other emigrant organizations in to one large Serbian national foundation, and Pupin was one of its founders and a
+                longtime president (1909–1926).
+                
+                He also organized "Kolo srpskih sestara" (English: Circle of Serbian sisters) who gathered help for the Serbian Red
+                Cross, and he also helped the gathering of volunteers to travel to Serbia during the First World War with the help of
+                the Serbian patriotic organization called the "Serbian National Defense Council" which he founded and led. Later, at the
+                start of the Second World War this organization was rehabilitated by Jovan Dučić and worked with the same goal. Pupin
+                guaranteed the delivery of food supplies to Serbia with his own resources, and he also was the head of the committee
+                that provided help to the victims of war. He also founded the Serbian society for helping children which provided
+                medicine, clothes and shelter for war orphans.[23]
+            </p>
+        </div>
+    </main>
+    <!-- kraj ostatka teksta -->
 </body>
-
 </html>
